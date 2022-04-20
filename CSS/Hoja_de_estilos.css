@@ -146,7 +146,7 @@ iframe{
 
 
 
-
+/*Menu hamburguesa*/
 
         .respmenu{
             font-family:  Calibri;
@@ -184,9 +184,6 @@ iframe{
             left:100%;
             top:-145%;           
             margin-left:-50px
-        }
-        .respmenu nav li:hover > ul{
-            display: block;
         }
         .respmenu nav li ul a{
             background-color: rgba(77, 70, 70, 0.9);
@@ -509,7 +506,7 @@ footer ul li h1{
     }
 }
 @media (max-width:1694px){
-    .nav > li {
+    .nav  li {
         padding-left: 1.5vh;
         padding-right: 1.5vh;            
     }
