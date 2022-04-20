@@ -584,7 +584,7 @@ footer ul li h1{
 }
 @media (max-width:768px){
     section{
-        height: 1400px;
+        height: auto;
     }
     #articulo_primero{
         display:flex;
@@ -642,5 +642,11 @@ body{
     width: 100%;
 }
 
+
+}
+@media (max-width:225px){
+body{
+    width: 1500%;
+}
 
 }
