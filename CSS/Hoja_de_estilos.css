@@ -248,6 +248,11 @@ iframe{
             transform:translateX(-550%);
             transition:0.5s;
           }
+          #icono_hamburguesa{
+              background-color: #2393FA;
+              border-bottom: #2393FA;
+              padding: 0;
+          }
 section{
             margin-left: 11%;
             margin-right: 11%;
@@ -509,22 +514,14 @@ footer ul li h1{
     }
 }
 @media (max-width:1694px){
-    .nav  li {
-        padding-left: 1.5vh;
-        padding-right: 1.5vh;            
-    }
-}
-@media (max-width:1577px){
     .nav > li {
-        padding-left: 1vh;
-        padding-right: 1vh;            
+        padding-left: 0;
+        padding-right: 0;            
     }
 }
+
 @media (max-width:1516px){
-    .nav > li {
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;            
-    }
+   
     #presentacion{
         font-size: 1em;
         padding-top: 2.5%;
@@ -532,13 +529,7 @@ footer ul li h1{
         width: 50%;     
     }
 }
-@media (max-width:1456px){
-    .nav > li {
-        padding-left: 0;
-        padding-right: 0;            
-    }
-    
-}
+
 @media (max-width:1456px){
     .nav > li {
         width: 15%;
