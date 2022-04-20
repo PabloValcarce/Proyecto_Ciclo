@@ -22,8 +22,10 @@ header{
     width: 100%;
     margin-bottom:1.5%;
     display:flex;
+    flex-flow: row wrap;
     justify-content: center;
-    justify-content: space-around;
+    align-items: center;
+    
 }
 #presentacion{
     font-size: 1.5rem;
@@ -44,7 +46,8 @@ header{
 }
 #logo img{
     padding-top: 5%;
-    padding-left: 15%;
+    width:50%;
+    margin: auto;
 }
 iframe{
     width: 75vw;
@@ -625,11 +628,12 @@ footer ul li h1{
     }
 }
 @media (max-width:700px){
-#presentacion{
-    display:none
+body{
+    width: 200%;
 }
 #logo img{
-    padding:0
+    width: 100%;
 }
+
 
 }
