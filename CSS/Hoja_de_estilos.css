@@ -13,22 +13,38 @@ body{
     align-items: center;
     justify-content: center;
 }
+/*Cabeza*/
 header{
-    margin-top: -34px;
+    margin-top: -1%;
     background-color:#1457BF ;
-    min-height: 175px;
+    min-height: 15%;
     font-family: "fortum";
     width: 100%;
-    margin-bottom:50px;
+    margin-bottom:1.5%;
     display:flex;
     justify-content: center;
     justify-content: space-around;
 }
-header>a{
-    color:white;
-    margin-top:40px;
+#presentacion{
+    font-size: 1.5rem;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;  
+    height: auto;  
     
-    
+}
+#presentacion h1{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 15%;
+    margin:0;
+}
+#logo{
+    height: auto;
+    width: 35%;
+}
+#logo img{
+    padding-top: 5%;
+    padding-left: 15%;
 }
 iframe{
     width: 75vw;
@@ -58,12 +74,7 @@ iframe{
     width: 50%;
     font-size: 1.25em;
 }
-#presentacion{
-    font-size: 4em;
-    text-align:center;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+
 /*NAV*/
 #nav_principal{
     font-weight: bolder;
@@ -237,40 +248,6 @@ iframe{
             transform:translateX(-150%);
             transition:0.5s;
           }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section{
             margin-left: 11%;
             margin-right: 11%;
