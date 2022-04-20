@@ -504,19 +504,38 @@ footer ul li h1{
     font-size:1.5em;
 }
 
-
+@media (max-width:1694px){
+    .nav > li {
+        padding-left: 1.5vh;
+        padding-right: 1.5vh;            
+    }
+}
+@media (max-width:1577px){
+    .nav > li {
+        padding-left: 1vh;
+        padding-right: 1vh;            
+    }
+}
+@media (max-width:1516px){
+    .nav > li {
+        padding-left: 0.5vh;
+        padding-right: 0.5vh;            
+    }
+}
+@media (max-width:1456px){
+    .nav > li {
+        padding-left: 0;
+        padding-right: 0;            
+    }
+}
+@media (max-width:1456px){
+    .nav > li {
+        width: 15%;
+    }
+}
 
 @media (max-width:1024px){
-    .menu{
-        position:static;
-        width:auto;
-        height:auto;
-        transform:translateX(0%);
-        display:flex;
-    }    
-    .menu a {
-        border:none;
-    }
+    
     #banner img{
         height: 60vh;
     }
@@ -531,8 +550,9 @@ footer ul li h1{
         width: 500%;
     }
     #presentacion{
-        font-size: 2.5em;
-        margin-top:5vh;
+        font-size: 1em;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
         width: 50%;     
     }
     #fachero{
