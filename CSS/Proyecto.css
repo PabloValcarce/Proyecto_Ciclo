@@ -21,6 +21,8 @@ body{
     display:flex;
     justify-content: space-between;
     height: 100%;
+    max-width: 80%;
+    
 }
 .nav-link{
     color:white;
@@ -47,4 +49,26 @@ body{
     line-height: 80px;
     text-transform: uppercase;
     width: max-content;
+}
+.nav-menu-link:hover{
+    background-color: #1457BF;
+    transition: 0.5s;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius:3px;
+}
+.nav-toggle{
+    color:white;
+    background: none;
+    border:none;
+    font-size: 2rem;
+    padding: 0 20px;
+    line-height: 60px;
+    display:none;
+}
+@media (max-with:768px){
+    .nav-toggle{
+        display:block;
+    }
 }
