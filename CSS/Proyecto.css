@@ -1,0 +1,50 @@
+:root{
+    --nav-color:#2393FA;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7.5% 5% 0;
+}
+.header{
+    background-color: var(--nav-color);
+    height: 86px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+.logo{
+
+    padding-left: 5%;
+    padding-top:10px;
+    line-height: 86px;
+    width: max-content;  
+}
+.logo img{
+    max-height:75%; 
+}
+.nav-menu{
+    display:flex;
+    list-style:none;
+    margin-right:40px;
+}
+.nav-menu-item{
+    font-size: 1.5rem;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
