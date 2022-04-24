@@ -29,7 +29,6 @@ body{
     text-decoration: none;
 }
 .logo{
-
     margin-left: -5%;
     padding-top:15px;
     line-height: 86px;
@@ -54,7 +53,6 @@ body{
     background-color: #034574;
     transition: 0.5s;
 }
-
 .nav-menu-link{
     padding: 8px 12px;
     border-radius:3px;
