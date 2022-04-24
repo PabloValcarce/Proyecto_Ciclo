@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 .presentacion-img{
     width: 80%;
-    max-width: 500px;
+    max-width: 500px;}/*
     animation-name: presentacion_img;
     animation-duration: 10s ;
     animation-direction:ease-in-out;
@@ -18,7 +18,7 @@
     100%{
         padding-top:0%;
     }
-}
+}*/
 .presentacion{
     text-align: center;
     margin:0 auto;
