@@ -2,9 +2,22 @@
 .presentacion-img{
     width: 80%;
     max-width: 500px;
+    animation-name: presentacion_img;
+    animation-duration: 10s ;
+    animation-direction:ease-in-out;
+    animation-iteration-count: infinite;
+    
 }
-.presentacion-img:hover{
-    transform: scale(1.1);
+@keyframes presentacion_img{
+    0%{
+        padding-top:0%;
+    }
+    25%{
+        padding-top:7.5%;
+    }
+    100%{
+        padding-top:0%;
+    }
 }
 .presentacion{
     text-align: center;
@@ -35,7 +48,7 @@
     padding-top:30px;
     padding-bottom: 30px;
 }
-@media(min-width:1000px){
+@media(min-width:1250px){
     .padding-horizontal{
         padding-left: 70px;
         padding-right: 70px;
