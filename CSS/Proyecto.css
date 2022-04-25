@@ -54,7 +54,7 @@ body{
 }
 .nav-menu-link:hover, .nav-menu-link_active{
     background-color: var(--nav-hover);
-    transition: 0.5s;
+    transition: 0.75s;
 }
 .nav-menu-link{
     padding: 8px 12px;
