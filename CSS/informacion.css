@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 .ola{  
     background-image:url(../Imagenes/Main/wd1.svg);
@@ -48,13 +49,21 @@
     .informacion-grid{
         display:grid;
         grid-template-columns: auto 5px auto;
-        margin-top: 10%;
+        margin-top: 5%;
+        gap:20px 70px;
+        justify-content: center;
     }
     .informaciones{
-        padding-top:0;
+        padding:10%;
         margin:0 auto;
-        max-width: 600px;
+        max-width: 1000px;
         text-align: center;
+    }
+    .informaciones-izq{
+        text-align: right;
+    }
+    .informaciones-dch{
+        text-align: left;
     }
     .informacion-titulo{
         text-align: center;
@@ -72,6 +81,7 @@
         font-size: 1.5rem;
         text-transform: uppercase;
         margin-top:5px;
+        width: 300px;
     }
     .linea{
         background-color: white;
@@ -87,6 +97,10 @@
         position: absolute;
         top:-20px;
         left:-9px;
+    }
+    .linea::after{
+        top:100%;
+        z-index: 1;
     }
 }
 

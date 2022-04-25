@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 .presentacion-img{
     width: 80%;
-    max-width: 500px;}/*
+    max-width: 500px;
+    margin-top: 5%;
+}/*
     animation-name: presentacion_img;
     animation-duration: 10s ;
     animation-direction:ease-in-out;
