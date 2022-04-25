@@ -68,10 +68,9 @@ body{
     line-height: 60px;
     display:none;
 }
-
 @media (max-width:750px){
     section{
-        padding-top: 20%;
+        padding-top: 5%;
     }
     .header{
         height: 60px;

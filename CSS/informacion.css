@@ -10,12 +10,23 @@
     background-image:url(../Imagenes/Main/wd1.svg);
     height:350px;
     background-position: bottom;
-    transform: scaleY(-1);
+    transform: scaleY(-1);}/*
+    animation: w1 7s linear infinite;
+    
 }
+@keyframes w1 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -800px;
+    }
+}*/
 .ola2{  
     background-image:url(../Imagenes/Main/wd1.svg);
     height:350px;
     background-position: bottom;
+    animation: w1 7s linear infinite;
 }
 /*Informacion*/
 .informacion{
@@ -117,7 +128,7 @@
 
 
 
-
+/*
 @media (max-width:2000px){
     .encabezado-informacion{
         margin-top:15%;
