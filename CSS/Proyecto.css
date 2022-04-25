@@ -2,6 +2,7 @@
     --nav-color:#2393FA;
     --informacion-color:#2196f3;
     --informacion-titulo:#f7c331;
+    --nav-hover:#034574;
 }
 *{
     margin: 0;
@@ -52,7 +53,7 @@ body{
     width: max-content;
 }
 .nav-menu-link:hover, .nav-menu-link_active{
-    background-color: #034574;
+    background-color: var(--nav-hover);
     transition: 0.5s;
 }
 .nav-menu-link{
