@@ -63,6 +63,11 @@ section{
 }
 @media(min-width:1000px){
     section{
+        margin-top:3.75%;
+    }
+}
+@media(min-width:1150px){
+    section{
         margin-top:2.5%;
     }
     footer{
@@ -74,9 +79,6 @@ section{
 }
 @media(min-width:1500px){
     section{
-        margin-top:1.25%;
-    }
-    footer{
         margin-top:1.25%;
     }
 }
