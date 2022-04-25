@@ -7,7 +7,7 @@
     margin-top: 5%;
 }
 .ola{  
-    background-image:url(../Imagenes/Main/wd1.svg);
+    background-image:url(../../Imagenes/Main/wd1.svg);
     height:350px;
     background-position: bottom;
     transform: scaleY(-1);}/*
@@ -23,7 +23,7 @@
     }
 }*/
 .ola2{  
-    background-image:url(../Imagenes/Main/wd1.svg);
+    background-image:url(../../Imagenes/Main/wd1.svg);
     height:350px;
     background-position: bottom;
     animation: w1 7s linear infinite;
