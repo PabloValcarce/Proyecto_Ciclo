@@ -40,9 +40,10 @@
 }
 .informacion-titulo{
     text-align: center;
+    font-family: 'Noto Sans',sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2rem;
+    font-size:2.5rem;
     margin: 25px;
 }
 .informaciones-titulo{
@@ -80,7 +81,7 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 4rem;
         margin: 25px;
     }
     .informaciones-titulo{

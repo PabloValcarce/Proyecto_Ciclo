@@ -16,6 +16,7 @@ footer{
 .redes-sociales-titulo{
         font-size:1.5rem;
         color:var(--informacion-titulo);
+        font-family: 'Noto Sans',sans-serif
 }
 .redes-sociales-iconos{
     margin-top: 10%;
