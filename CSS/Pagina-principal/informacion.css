@@ -11,8 +11,9 @@
     height:350px;
     background-position: bottom;
     transform: scaleY(-1);
-    z-index: -1;}/*
+    z-index: -1;
     animation: w1 7s linear infinite;
+    animation-direction: alternate;
     
 }
 @keyframes w1 {
@@ -22,12 +23,13 @@
     100%{
         margin-left: -800px;
     }
-}*/
+}
 .ola2{  
     background-image:url(../../Imagenes/Main/wd1.svg);
     height:350px;
     background-position: bottom;
     animation: w1 7s linear infinite;
+    animation-direction: alternate;
 }
 /*Informacion*/
 .informacion{

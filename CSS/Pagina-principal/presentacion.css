@@ -61,7 +61,7 @@
     }
     .presentacion-img{
         width: 100%;
-        min-width: 800px;        
+        max-width: 800px;        
     }
     .presentacion{
         text-align: left;

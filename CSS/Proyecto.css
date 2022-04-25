@@ -1,6 +1,5 @@
 :root{
     --nav-color:#2196f3;
-    --informacion-color:#2196f3;
     --informacion-titulo:#f7c331;
     --nav-hover:#034574;
 }
@@ -70,6 +69,12 @@ body{
     line-height: 60px;
     display:none;
 }
+@media (max-width:1300px){
+    .nav-toggle{
+        display:block;
+    }
+    
+}
 @media (max-width:750px){
     section{
         padding-top: 5%;
@@ -108,9 +113,6 @@ body{
         background:none;
         transition: 0.5s;
         color:var(--nav-color);
-    }
-    .nav-toggle{
-        display:block;
     }
     .nav-menu-visible{
         left:100%;
