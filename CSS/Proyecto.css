@@ -1,6 +1,6 @@
 :root{
     --nav-color:#2393FA;
-    --informacion-color:#2196f3;
+    --informacion-color:#2393FA;
     --informacion-titulo:#f7c331;
     --nav-hover:#034574;
 }
@@ -25,7 +25,8 @@ body{
     justify-content: space-between;
     height: 100%;
     max-width: 80%;
-    margin:0 auto;    
+    margin:0 auto; 
+    z-index: 99;   
 }
 .nav-link{
     color:white;

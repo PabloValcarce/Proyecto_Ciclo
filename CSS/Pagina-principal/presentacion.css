@@ -32,7 +32,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin:0;
-    color:#1457BF;
+    color:#2393FA;
     font-family: 'Noto Sans',sans-serif;
 }
 .presentacion-detalles{
@@ -61,7 +61,7 @@
     }
     .presentacion-img{
         width: 100%;
-        max-width: 700px;
+        min-width: 800px;        
     }
     .presentacion{
         text-align: left;

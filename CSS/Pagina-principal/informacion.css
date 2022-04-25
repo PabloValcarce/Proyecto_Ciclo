@@ -10,7 +10,8 @@
     background-image:url(../../Imagenes/Main/wd1.svg);
     height:350px;
     background-position: bottom;
-    transform: scaleY(-1);}/*
+    transform: scaleY(-1);
+    z-index: -1;}/*
     animation: w1 7s linear infinite;
     
 }
@@ -30,7 +31,7 @@
 }
 /*Informacion*/
 .informacion{
-    background-color:var(--informacion-color);
+    background-color:var(--nav-color);
     color:white;
 }
 .informaciones{
@@ -98,6 +99,7 @@
     .linea{
         background-color: white;
         position: relative;
+        z-index: 0;
     }
     .linea::before,.linea::after{
         content:"";
