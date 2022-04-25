@@ -1,3 +1,6 @@
+body{
+    height: auto;
+}
 section{
     background-color: var(--nav-hover);
     color:white;
@@ -85,8 +88,15 @@ section{
 @media(min-width:2000px){
     section{
         margin-top:-2%;
+        margin-bottom:0.5%;
     }
     .contacto-redes-iconos{
         width: 12.5%;
     }
 }
+@media(min-width:2000px){
+    section{
+        margin-bottom: 2%;
+    }
+}
+
