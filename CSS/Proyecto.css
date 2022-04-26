@@ -89,6 +89,8 @@ body{
         transition:0.5s;
     }
     section{
+        display: flex;
+        flex-direction: column;
         padding-top: 5%;
     }
     .header{

@@ -1,0 +1,10 @@
+#scroll_1{
+    opacity: 0;
+    transition: opacity 5s;
+}
+#scroll_2{
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+
