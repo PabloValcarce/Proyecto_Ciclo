@@ -43,10 +43,11 @@ body{
 .nav-menu{
     display:flex;
     list-style:none;
-    margin-right:40px;
+    margin-right: -37.5%;
 }
 .nav-menu-item{
     font-size: 1.5rem;
+    font-weight: bolder;
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
@@ -68,6 +69,16 @@ body{
     padding: 0 20px;
     line-height: 60px;
     display:none;
+}
+.login{
+    color:white;
+    background: none;
+    border:none;
+    font-size: 2rem;
+    padding: 0 20px;
+    line-height: 60px;
+    margin:0;
+    margin-top:0.65%;
 }
 @media (max-width:1300px){
     .nav-toggle{

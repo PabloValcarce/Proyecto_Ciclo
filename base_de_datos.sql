@@ -1,7 +1,6 @@
 create database Tienda
 USE Tienda
 
-
 create table Administrador 
 (
     nom_Usu varchar(10) not null,
@@ -10,7 +9,6 @@ create table Administrador
     primary key(id_Admin)
 )
 GO
-
 create table PRODUCTOS
 (
     id_Produc int(8) auto_increment,
@@ -21,7 +19,6 @@ create table PRODUCTOS
     primary key(id_Produc)
 )
 GO
-
 create table CLIENTES
 (
     id_clien int(8) auto_increment,
