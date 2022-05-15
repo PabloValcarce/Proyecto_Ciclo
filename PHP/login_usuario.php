@@ -8,9 +8,8 @@ if(isset($_SESSION["email"])){
 if(isset($_POST["email_ini"])){
     $email=$_POST["email_ini"];
     $password = md5($_POST["password_ini"]);
-    echo($password);
 
-    $sql = mysqli_query($conn,"SELECT * FROM clientes WHERE email='$email' AND password = '$password'");
+    $sql = mysqli_query($conn,"SELECT * FROM clientes WHERE email='$email' AND pass= '$password'");
 
     if(mysqli_num_rows($sql) > 0){
         echo('entraste boludo');

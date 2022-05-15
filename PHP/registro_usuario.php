@@ -14,7 +14,7 @@ if(isset($_SESSION["email"])){
             email='$email'";
             $result = mysqli_query($conn, $sql);
             if(!$result -> num_rows >0){
-                $sql ="INSERT INTO clientes (username, email, password)
+                $sql ="INSERT INTO clientes (username, email, pass)
                 VALUE ('$username','$email','$password')";
                 $result = mysqli_query($conn,$sql);
                 if($result){
