@@ -1,4 +1,28 @@
-<!DOCTYPE html>
+<?php
+include "./config.php";
+session_start();
+error_reporting(0);
+
+if(isset($_SESSION["ussername"])){
+    header("Location: ../index.php");
+}
+
+if(isset($_POST["submit"])){
+    $email=$_POST["email"];
+    $password = md5($_POST["password"]);
+
+    $sql = "SELECT * FROM tienda_online WHERE email='$email' AND password = '$password'";
+    $result = mysqli_query($conn, $sql);
+
+    if($result ->num_rows > 0){
+        $row = mysqli_fetch_assoc($result);
+        $_SESSION['username'] = $row['username'];
+        header("Location: ./PHP/panel.php");
+    }else{
+        echo"<script>alert('La contraseña o el email son incorrectos')</script>";
+    }
+}
+?>
 <html>
     <head>
         <title>frigelu</title>
@@ -6,13 +30,13 @@
         <meta name="viewport" content="width=device-width"/>
         <script src="https://kit.fontawesome.com/ec26806206.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/png"  href="./Imagenes/Cabecera/icono1.jpg">
-        <link href ="CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
-        <link href ="CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="../CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="../CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">
             <nav class="nav">
-                <a href="index.html" class=" logo nav-link"><img src="./Imagenes/Cabecera/FRIGELU_Transparente_Grande.png"></a>
+                <a href="../index.php" class=" logo nav-link"><img src="../Imagenes/Cabecera/FRIGELU_Transparente_Grande.png"></a>
                 <button class="nav-toggle">
                     <i class="fa-solid fa-bars"></i>
                 </button>
@@ -29,21 +53,27 @@
                     <li class="nav-menu-item">
                         <a href="./informacion.html" class="nav-menu-link nav-link">Información</a>
                     </li>
-                </ul>
-                    <a class="login"href = "./login.html"><i class="fa-regular fa-user"></i></a>
+                </ul>    
             </nav> 
         </header>
-        
+        <section>
+            <form method="post" action="login.php">
+                <h1>Inicio</h1>
+                <input type ="text" name="email"placeholder="Email"></br>
+                <input type ="password" name="password"placeholder="*******"></br>
+                <input type="submit" value="Registrarme">
+            </form>
+        </section>
         <footer id="scroll_3">
             <div class="redes-sociales">
                 <div class="redes-sociales-titulo">
                     <h1>REDES SOCIALES</h1>
                 </div>
                 <div class="redes-sociales-iconos">
-                    <a href="https://www.instagram.com/frigelu/"><img alt="instagram" src="./Imagenes/Pie de pagina/intagram.png" height="50px"width="50px"/></a>
-                    <a href="https://api.whatsapp.com/message/KZREJQQV6TTRK1"><img  alt="Whatsapp" src="./Imagenes/Pie de pagina/whatsapp.png"height="50px"width="50px"/></a>
-                    <a href="https://twitter.com/Frigelu"><img src="./Imagenes/Pie de pagina/twitter.png"height="50px"width="50" alt="Twitter"/></a>
-                    <a href="https://www.facebook.com/frigelu"><img src="./Imagenes/Pie de pagina/redsocial.png"height="50px"width="50px" alt="Facebook"/></a>
+                    <a href="https://www.instagram.com/frigelu/"><img alt="instagram" src="../Imagenes/Pie de pagina/intagram.png" height="50px"width="50px"/></a>
+                    <a href="https://api.whatsapp.com/message/KZREJQQV6TTRK1"><img  alt="Whatsapp" src="../Imagenes/Pie de pagina/whatsapp.png"height="50px"width="50px"/></a>
+                    <a href="https://twitter.com/Frigelu"><img src="../Imagenes/Pie de pagina/twitter.png"height="50px"width="50" alt="Twitter"/></a>
+                    <a href="https://www.facebook.com/frigelu"><img src="../Imagenes/Pie de pagina/redsocial.png"height="50px"width="50px" alt="Facebook"/></a>
                 </div>
             </div>
             <div class="footer-informacion">

@@ -22,8 +22,9 @@ GO
 create table CLIENTES
 (
     id_clien int(8) auto_increment,
-    nom_Usu varchar(10) not null,
-    contr_cliente varchar(10) not null,
+    username varchar(255) not null,
+    password varchar(10) not null,
+    email varchar(255) not null,
     primary key(id_clien)
 )
 GO

@@ -6,19 +6,19 @@
         <meta name="viewport" content="width=device-width"/>
         <script src="https://kit.fontawesome.com/ec26806206.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/png"  href="./Imagenes/Cabecera/icono1.jpg">
-        <link href ="CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
-        <link href ="CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">
             <nav class="nav">
-                <a href="index.html" class=" logo nav-link"><img src="./Imagenes/Cabecera/FRIGELU_Transparente_Grande.png"></a>
+                <a href="index.php" class=" logo nav-link"><img src="./Imagenes/Cabecera/FRIGELU_Transparente_Grande.png"></a>
                 <button class="nav-toggle">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <ul class="nav-menu nav-menu-visible">
                     <li class="nav-menu-item">
-                        <a href="./index.html" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a>
+                        <a href="./index.php" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a>
                     </li>
                     <li class="nav-menu-item">
                         <a href="" class="nav-menu-link nav-link">Productos</a>
@@ -30,19 +30,10 @@
                         <a href="./informacion.html" class="nav-menu-link nav-link">Información</a>
                     </li>
                 </ul>
-                    <a class="login"href = "./login.html"><i class="fa-regular fa-user"></i></a>
+                    <a class="login"href = "./PHP/login.php"><i class="fa-regular fa-user"></i></a>
             </nav> 
         </header>
         
-
-
-
-
-
-
-
-
-
         <footer id="scroll_3">
             <div class="redes-sociales">
                 <div class="redes-sociales-titulo">
