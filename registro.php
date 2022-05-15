@@ -48,14 +48,13 @@
                         <button id="btn__registrarse">Regístrarse</button>
                     </div>
                 </div>
-
                 <!--Formulario de Login y registro-->
                 <div class="contenedor__login-register">
                     <!--Login-->
-                    <form action="" class="formulario__login">
+                    <form action="./PHP/login_usuario.php"method="post" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Correo Electronico">
-                        <input type="password" placeholder="Contraseña">
+                        <input name="email_ini"type="text" placeholder="Correo Electronico">
+                        <input name="password_ini"type="password" placeholder="Contraseña">
                         <button>Entrar</button>
                     </form>
 

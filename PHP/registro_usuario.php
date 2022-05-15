@@ -1,7 +1,7 @@
 <?php
 include "./config.php";
 session_start();
-if(isset($_SESSION["username"])){
+if(isset($_SESSION["email"])){
     header("Location: ../index.php");
 };
     if(isset($_POST["username"])){
@@ -18,21 +18,30 @@ if(isset($_SESSION["username"])){
                 VALUE ('$username','$email','$password')";
                 $result = mysqli_query($conn,$sql);
                 if($result){
-                    echo "<script>alert ('Usuario registrado con exito')</script>";
+                    echo "<script>
+                            alert ('Usuario registrado con exito');
+                            window.location='../registro.php'
+                        </script>";
                     $username="";
                     $email="";
                     $_POST["password"]="";
                     $_POST["cpassword"]="";
                 }else{
-                    echo"<script>alert('Hay un error')</script>";
+                    echo"<script>
+                        alert('Hay un error');
+                        window.location='../registro.php'
+                        </script>";
                 }
             }else{
-                echo ("<script> alert('El correo ya existe')<script>");
+                echo ("<script> alert('El correo ya existe');
+                        window.location='../registro.php'
+                        <script>");
             }
         }else{
-            echo "<script>alert('Las contraseñas no coinciden')</script>";
+            echo "<script>alert('Las contraseñas no coinciden');
+                    window.location='../registro.php'</script>";
         }
     }else{
     }
-    
+    mysqli_close($conn);
 ?>
