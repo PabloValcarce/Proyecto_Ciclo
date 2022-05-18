@@ -10,7 +10,7 @@ if(isset($_POST["email_ini"])){
     $password = $_POST["password_ini"];
 
     $sql = mysqli_query($conn,"SELECT * FROM clientes WHERE email='$email' AND pass= '$password'");
-
+    
     if(mysqli_num_rows($sql) > 0){
         echo('entraste boludo');
         $row = mysqli_fetch_assoc($result);

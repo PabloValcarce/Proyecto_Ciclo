@@ -44,7 +44,7 @@
                     </div>
                     <div class="caja__trasera-register">
                         <h3>¿Aún no tienes una cuenta?</h3>
-                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <p>Regístrate para que puedas comprar</p>
                         <button id="btn__registrarse">Regístrarse</button>
                     </div>
                 </div>
@@ -53,18 +53,18 @@
                     <!--Login-->
                     <form action="./PHP/login_usuario.php"method="post" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input name="email_ini"type="text" placeholder="Correo Electronico">
-                        <input name="password_ini"type="password" placeholder="Contraseña">
+                        <input required name="email_ini"type="text" placeholder="Correo Electronico">
+                        <input required name="password_ini"type="password" placeholder="Contraseña">
                         <button>Entrar</button>
                     </form>
 
                     <!--Register-->
                     <form action="./PHP/registro_usuario.php" method="post"class="formulario__register">
                         <h2>Regístrarse</h2>
-                        <input name="username"type="text" placeholder="Nombre de Usuario">
-                        <input name="email"type="text" placeholder="Correo Electrónico">
-                        <input name="password"type="password" placeholder="Contraseña">
-                        <input name="cpassword"type="password" placeholder="Repite Contraseña">
+                        <input required name="username"type="text" placeholder="Nombre de Usuario">
+                        <input required name="email"type="text" placeholder="Correo Electrónico">
+                        <input required name="password"type="password" placeholder="Contraseña">
+                        <input required name="cpassword"type="password" placeholder="Repite Contraseña">
                         <button>Regístrarse</button>
                     </form>
                 </div>
