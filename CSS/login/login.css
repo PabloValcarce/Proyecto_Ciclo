@@ -5,7 +5,9 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-
+.login{
+    margin-top:55;
+}
 body{
     background-image: url(../../Imagenes/login/bg2.jpg);
     background-size: cover;

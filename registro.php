@@ -53,7 +53,7 @@
                     <!--Login-->
                     <form action="./PHP/login_usuario.php"method="post" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input required name="email_ini"type="text" placeholder="Correo Electronico">
+                        <input required name="email_ini"type="email" placeholder="Correo Electronico">
                         <input required name="password_ini"type="password" placeholder="Contraseña">
                         <button>Entrar</button>
                     </form>
@@ -62,7 +62,7 @@
                     <form action="./PHP/registro_usuario.php" method="post"class="formulario__register">
                         <h2>Regístrarse</h2>
                         <input required name="username"type="text" placeholder="Nombre de Usuario">
-                        <input required name="email"type="text" placeholder="Correo Electrónico">
+                        <input required name="email"type="email" placeholder="Correo Electrónico">
                         <input required name="password"type="password" placeholder="Contraseña">
                         <input required name="cpassword"type="password" placeholder="Repite Contraseña">
                         <button>Regístrarse</button>

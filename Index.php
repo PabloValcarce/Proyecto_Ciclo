@@ -42,7 +42,7 @@ if(isset($_SESSION["username"])){
                     <a class="login"href = "./registro.php"><i class="fa-regular fa-user"></i></a>
                     </li>
                 </ul>
-                    <a class="login"href = "./registro.php"><i class="fa-regular fa-user"></i></a>
+                    
             </nav> 
         </header>
         
