@@ -7,7 +7,7 @@ if(isset($_SESSION["email"])){
 };
 if(isset($_POST["email_ini"])){
     $email=$_POST["email_ini"];
-    $password = md5($_POST["password_ini"]);
+    $password = $_POST["password_ini"];
 
     $sql = mysqli_query($conn,"SELECT * FROM clientes WHERE email='$email' AND pass= '$password'");
 
