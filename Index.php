@@ -2,9 +2,6 @@
 session_start();
 error_reporting(0);
 
-if(isset($_SESSION["username"])){
-    header("Location: ./registro.php");
-}
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +37,12 @@ if(isset($_SESSION["username"])){
                     </li>
                     <li class="nav-menu-item">
                     <a class="login"href = "./registro.php"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                    <li class="nav-menu-item sesion">
+                        <?php
+                        if(isset($_SESSION['username']))
+                        {echo($_SESSION['username']);}
+                        ?>
                     </li>
                 </ul>
                     
