@@ -41,8 +41,9 @@ error_reporting(0);
                     <li class="nav-menu-item sesion">
                         <?php
                         if(isset($_SESSION['username']))
-                        {echo($_SESSION['username']);}
-                        ?>
+                        {echo($_SESSION['username']);}?>
+                        <nav id="">
+                        </nav>
                     </li>
                 </ul>
                     
