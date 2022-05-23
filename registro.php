@@ -27,10 +27,7 @@
                         <a href="./galeria.html" class="nav-menu-link nav-link">Galeria</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="./informacion.html" class="nav-menu-link nav-link">Información</a>
-                    </li>
-                    <li>
-                        <a class="login"href = "registro.php"><i class="fa-regular fa-user"></i></a> 
+                        <a href="./informacion.php" class="nav-menu-link nav-link">Información</a>
                     </li>
                 </ul>   
             </nav> 

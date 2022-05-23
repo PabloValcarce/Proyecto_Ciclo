@@ -1,3 +1,7 @@
+<?php
+session_start();
+error_reporting(0)
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -31,10 +35,20 @@
                         <a href="./galeria.html" class="nav-menu-link nav-link">Galeria</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="./informacion.html" class="nav-menu-link nav-link nav-menu-link_active">Información</a>
+                        <a href="./informacion.php" class="nav-menu-link nav-link nav-menu-link_active">Información</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a class="login"href = "./registro.php"><i class="fa-regular fa-user"></i></a>
+                    <?php if(!isset($_SESSION['username'])){echo('<a class="login"href = "./registro.php"><i class="fa-regular fa-user"></i></a>');}?>
+                    </li>
+                    <li class="nav-menu-item  sesion">
+                        <a href="" class="nav-menu-link nav-link">
+                        <?php
+                        if(isset($_SESSION['username']))
+                        {echo($_SESSION['username']);}?>
+                        </a>
+                        <nav id="">
+
+                        </nav>
                     </li>
                 </ul>
             </nav> 

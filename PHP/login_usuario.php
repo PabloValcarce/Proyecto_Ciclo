@@ -11,7 +11,8 @@ if(isset($_POST["email_ini"])){
     if(mysqli_num_rows($sql) > 0){
         $row = mysqli_fetch_assoc($sql);
         $_SESSION['username'] = $row['username'];
-        echo($_SESSION['username']);
+        $_SESSION['roll'] = $row['roll'];
+        echo($_SESSION['roll']);
         header("Location: ../index.php");
     }else{
         echo"<script>alert('La contraseña o el email son incorrectos');

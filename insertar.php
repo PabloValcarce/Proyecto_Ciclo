@@ -1,12 +1,13 @@
+
+
+
 <?php
 session_start();
 error_reporting(0);
 
 ?>
-
-<!DOCTYPE html>
 <html>
-    <head>
+<head>
         <title>frigelu</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width"/>
@@ -24,11 +25,10 @@ error_reporting(0);
                 </button>
                 <ul class="nav-menu nav-menu-visible">
                     <li class="nav-menu-item">
-                    <?php if($_SESSION['roll']=='administrador'){
-                        ?><a class="nav-menu-link nav-link "href = "./insertar.php">INSERTAR</a><?php } ?>
+                    <?php if(isset($_SESSION['roll'])=='administrador'){echo('<a class="nav-menu-link nav-link nav-menu-link_active "href = "./insertar.php">INSERTAR</a>');}?>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="./index.php" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a>
+                        <a href="./index.php" class="nav-menu-link nav-link ">Inicio</a>
                     </li>
                     <li class="nav-menu-item">
                         <a href="" class="nav-menu-link nav-link">Productos</a>
@@ -42,20 +42,16 @@ error_reporting(0);
                     <li class="nav-menu-item">
                     <?php if(!isset($_SESSION['username'])){echo('<a class="login"href = "./registro.php"><i class="fa-regular fa-user"></i></a>');}?>
                     </li>
-                    <?php
-                        if(isset($_SESSION['username'])){
-                    ?>
                     <li class="nav-menu-item  sesion">
-                    <?php    
-                        echo($_SESSION['username']);?>
+                        <a href="" class="nav-menu-link nav-link">
+                        <?php
+                        if(isset($_SESSION['username']))
+                        {echo($_SESSION['username']);}?>
                         </a>
                         <ul>
                             <li>Hola</li>
-                            <li><a href="./PHP/logout.php">Cerrar sesión</a>
-
                         </ul>
                     </li>
-                    <?php } ?>
                 </ul>
                     
             </nav> 
@@ -84,4 +80,5 @@ error_reporting(0);
 		</footer>      
     </body>
     <script src="JS/Proyecto.js"></script>
+</html>
 </html>
