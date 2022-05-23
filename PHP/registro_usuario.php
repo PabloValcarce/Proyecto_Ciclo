@@ -1,20 +1,16 @@
 <?php
 include "./config.php";
-session_start();
-if(isset($_SESSION["email"])){
-    header("Location: ../index.php");
-};
     if(isset($_POST["username"])){
         $username = $_POST["username"];
         $email = $_POST["email"];
         $password = $_POST["password"];
         $cpassword = $_POST["cpassword"];
         if($password==$cpassword){
-            $sql ="SELECT * FROM clientes WHERE 
+            $sql ="SELECT * FROM usuarios WHERE 
             email='$email'";
             $result = mysqli_query($conn, $sql);
             if(!$result -> num_rows >0){
-                $sql ="INSERT INTO clientes (username, email, pass)
+                $sql ="INSERT INTO usuarios (username, email, pass)
                 VALUE ('$username','$email','$password')";
                 $result = mysqli_query($conn,$sql);
                 if($result){
