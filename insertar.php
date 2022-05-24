@@ -15,6 +15,7 @@ error_reporting(0);
         <link rel="icon" type="image/png"  href="./Imagenes/Cabecera/icono1.jpg">
         <link href ="./CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/insertar/insertar.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">
@@ -56,7 +57,16 @@ error_reporting(0);
                     
             </nav> 
         </header>
-        
+        <section>
+            <h1>Producto</h1>
+            <form method="post" action="insertar_productos.php">
+                <input required name="titulo"type="text" placeholder="Título"></br></br>
+                <input required name="descripcion"type="text" placeholder="Descripción"></br></br>
+                <input required name="precio"type="text" placeholder="Precio"></br></br>
+                <input required name="imagen"type="file" placeholder="Imagen"></br></br>
+                <input type="submit"value="Enviar">
+            </form>
+        </section>        
         <footer id="scroll_3">
             <div class="redes-sociales">
                 <div class="redes-sociales-titulo">
