@@ -13,6 +13,7 @@ error_reporting(0);
         <script src="https://kit.fontawesome.com/ec26806206.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/png"  href="./Imagenes/Cabecera/icono1.jpg">
         <link href ="./CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/Index/Index.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
@@ -60,6 +61,77 @@ error_reporting(0);
                     
             </nav> 
         </header>
+
+        <section class="productos">
+            <div class='producto'>
+                <div class='produc_imagen'>
+                    <img src="./Imagenes/Main/alonso-renault-r25-2165935.webp">
+                </div>
+                <div class="produc_contenido">
+                    <h1 class="produc_titulo">NANO<h1>
+                    <h2 class="produc_descripcion">Premio Principe de Asturias 👑. Karting & Fórmula 1 & Endurance world champion 
+                        🌍🌎🌎🌎. Winner of 24h Le Mans & 24h Daytona 🏆🏆🏆. F1 driver. </h2>
+                    <p class="produc_comprar"><a  href="comprado.html">Comprar</a></p>
+                </div>
+            </div>
+            <div class='producto'>
+                <div class='produc_imagen'>
+                    <img src="./Imagenes/Main/alonso-renault-r25-2165935.webp">
+                </div>
+                <div class="produc_contenido">
+                    <h1 class="produc_titulo">NANO<h1>
+                    <h2 class="produc_descripcion">Premio Principe de Asturias 👑. Karting & Fórmula 1 & Endurance world champion 
+                        🌍🌎🌎🌎. Winner of 24h Le Mans & 24h Daytona 🏆🏆🏆. F1 driver. </h2>
+                    <p class="produc_comprar"><a  href="comprado.html">Comprar</a></p>
+                </div>
+            </div>
+            <div class='producto'>
+                <div class='produc_imagen'>
+                    <img src="./Imagenes/Main/alonso-renault-r25-2165935.webp">
+                </div>
+                <div class="produc_contenido">
+                    <h1 class="produc_titulo">NANO<h1>
+                    <h2 class="produc_descripcion">Premio Principe de Asturias 👑. Karting & Fórmula 1 & Endurance world champion 
+                        🌍🌎🌎🌎. Winner of 24h Le Mans & 24h Daytona 🏆🏆🏆. F1 driver. </h2>
+                    <p class="produc_comprar"><a  href="comprado.html">Comprar</a></p>
+                </div>
+            </div>
+            <div class='producto'>
+                <div class='produc_imagen'>
+                    <img src="./Imagenes/Main/alonso-renault-r25-2165935.webp">
+                </div>
+                <div class="produc_contenido">
+                    <h1 class="produc_titulo">NANO<h1>
+                    <h2 class="produc_descripcion">Premio Principe de Asturias 👑. Karting & Fórmula 1 & Endurance world champion 
+                        🌍🌎🌎🌎. Winner of 24h Le Mans & 24h Daytona 🏆🏆🏆. F1 driver. </h2>
+                    <p class="produc_comprar"><a  href="comprado.html">Comprar</a></p>
+                </div>
+            </div>
+            <div class='producto'>
+                <div class='produc_imagen'>
+                    <img src="./Imagenes/Main/alonso-renault-r25-2165935.webp">
+                </div>
+                <div class="produc_contenido">
+                    <h1 class="produc_titulo">NANO<h1>
+                    <h2 class="produc_descripcion">Premio Principe de Asturias 👑. Karting & Fórmula 1 & Endurance world champion 
+                        🌍🌎🌎🌎. Winner of 24h Le Mans & 24h Daytona 🏆🏆🏆. F1 driver. </h2>
+                    <p class="produc_comprar"><a  href="comprado.html">Comprar</a></p>
+                </div>
+            </div>
+            <div class='producto'>
+                <div class='produc_imagen'>
+                    <img src="./Imagenes/Main/alonso-renault-r25-2165935.webp">
+                </div>
+                <div class="produc_contenido">
+                    <h1 class="produc_titulo">NANO<h1>
+                    <h2 class="produc_descripcion">Premio Principe de Asturias 👑. Karting & Fórmula 1 & Endurance world champion 
+                        🌍🌎🌎🌎. Winner of 24h Le Mans & 24h Daytona 🏆🏆🏆. F1 driver. </h2>
+                    <p class="produc_comprar"><a  href="comprado.html">Comprar</a></p>
+                </div>
+            </div>
+
+        </section>                    
+
         
         <footer id="scroll_3">
             <div class="redes-sociales">
