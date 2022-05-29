@@ -51,7 +51,6 @@ error_reporting(0);
                         echo($_SESSION['username']);?>
                         </a>
                         <ul>
-                            <li>Hola</li>
                             <li><a href="./PHP/logout.php">Cerrar sesión</a>
 
                         </ul>
