@@ -1,6 +1,3 @@
-
-
-
 <?php
 session_start();
 error_reporting(0);
@@ -16,6 +13,7 @@ error_reporting(0);
         <link href ="./CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/insertar/insertar.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/normalize.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">
@@ -53,8 +51,7 @@ error_reporting(0);
                             <li>Hola</li>
                         </ul>
                     </li>
-                </ul>
-                    
+                </ul>    
             </nav> 
         </header>
         <section>

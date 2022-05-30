@@ -8,6 +8,7 @@
         <link href ="./CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/login/login.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/normalize.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">

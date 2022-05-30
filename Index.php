@@ -15,6 +15,7 @@ error_reporting(0);
         <link href ="./CSS/Proyecto.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/Index/Index.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="./CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/normalize.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">

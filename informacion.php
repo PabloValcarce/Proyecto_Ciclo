@@ -16,6 +16,7 @@ error_reporting(0)
         <link href ="CSS/Informacion/informacion.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="CSS/footer.css" rel="stylesheet" type="text/css" media ="screen"/>
         <link href ="CSS/global.css" rel="stylesheet" type="text/css" media ="screen"/>
+        <link href ="./CSS/normalize.css" rel="stylesheet" type="text/css" media ="screen"/>
     </head>
     <body>
         <header class="header">
